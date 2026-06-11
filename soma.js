@@ -3,3 +3,9 @@ function somarNumero (a,b){
     console.log(resultado);
 }
 somarNumero(2,3);
+
+modulo.exports = somarNumero;
+
+
+
+
