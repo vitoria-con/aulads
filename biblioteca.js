@@ -29,6 +29,29 @@ biblioteca.mostrarLivros();
 
 
 
+        
+
+remover livros (nome){
+    for (let i = 0; i < this.livros.length; i++) {
+        if (this.livros.[i].nome.tolowercase () === nome.tolowercase()){
+            const removido = this.livros[i];
+            this.livros.splice(i, 1);
+            console.log("Livro removido", + removido.nome);
+            return;
+        }}console.log("Livro não encontrado");
+    }
+  }
+
+}
+ 
+
+
+
+
+
+
+
+
 
 
 
