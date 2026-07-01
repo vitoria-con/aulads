@@ -11,3 +11,7 @@ pessoa.idade = 18;
 console.log (pessoa.peso);
 pessoa.altura = 1.60;
 console.log (pessoa.cidade);
+
+
+
+
